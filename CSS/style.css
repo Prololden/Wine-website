@@ -1,0 +1,521 @@
+.block_one,.block_two,.block_tree,.block_four,.block_five,.block_karta,.block_postavhiki,.block_skritiy {
+    font-family: 'Rubik', sans-serif;
+}
+
+.block_one{
+    background-image: url(/Бухло/IMAGES/bgc.svg);
+    padding-top: 30px;
+    padding-bottom: 240px;
+}
+.header{
+    display: flex;
+    color: rgba(255, 255, 255, 1);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.header_nomer{
+    margin-left: 870px;
+}
+.header_nav{
+    margin-bottom: 500px;
+}
+.nav{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.nav a{
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 13px 100px 13px 100px;
+    border: 1px solid white;
+    border-right: none;
+}
+.nav a:hover{
+    color: rgba(153, 134, 42, 1);
+}
+.nav a.header_cotalog{
+    border-left: none;
+}
+.btn{
+    display: flex;
+    position: relative;
+    left:35%;
+    justify-content: center;
+}
+.btn button{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    border: none;
+
+}
+.btn_karta{
+    color: white;
+    background-color: rgba(153, 134, 42, 1);
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+}
+.btn_karta:hover{
+    color: black;
+    border: 1px solid rgba(40, 40, 40, 1);
+}
+.btn_degustaciya{
+    margin-left: 30px;
+    color: white;
+    background-color: rgba(153, 134, 42, 1);
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;    
+}
+.btn_degustaciya:hover{
+    color: black;
+    border: 1px solid rgba(40, 40, 40, 1);
+}
+.block_two{
+    background-color: rgba(40, 40, 40, 1);
+    padding: 100px 405px 100px 405px;
+}
+.Opisanie{
+    border: 1px solid white;
+    justify-content: center;
+}
+.Opisanie_zagalovok{
+    margin-top: 60px;
+    text-align: center;
+    font-size:  36px;
+    line-height: 54px;
+    color: white;
+}
+.Line{
+    margin-top: 40px;
+    text-align: center;
+}
+.Opisanie_slov{
+    margin: 40px 147px 0px 147px;
+    text-align: center;
+    font-Weight: 400;
+    font-size:  16px;
+    line-height: 24px;
+    color: white;
+}
+.bakal{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.block_tree{
+    background-color: rgba(153, 134, 42, 1);
+    padding-top: 150px;
+}
+.katalog{
+    text-align: center;
+    font-size:  36px;
+    font-weight: bolder;
+    line-height: 54px;
+    color: rgba(40, 40, 40, 1);
+    padding-bottom: 150px;
+}
+.vino{
+    text-align: center;
+    font-size:  26px;
+    color: rgba(40, 40, 40, 1);
+}
+.vina{
+    margin: 0px 15px 0px 15px;
+}
+.vina img{
+    text-align: center;
+    border: 2px solid rgba(40, 40, 40, 1);
+    height: 380px;
+    background-color: rgba(40, 40, 40, 1);
+}
+.block_four{
+    background-color:rgba(230, 227, 196, 1);
+    padding-top: 80px;
+}
+.liniya{
+    margin-left: 130px;
+}
+.Kollekciya{
+display: flex;
+   text-align: center;
+}
+.Novinky{
+    margin-right: 450px;
+    font-size: 16px;
+    margin-bottom: 10px;   
+}
+.Story{
+    display: flex;
+}
+.Urojay{
+    font-size: 36px;
+    font-weight: bolder;
+    margin-right: 430px;
+    margin-bottom: -20px;
+}
+.Urojay_2{
+    font-size: 36px;
+    font-weight: bolder;
+    margin-right: 315px;  
+    margin-bottom: 5px;    
+}
+.Line_9{
+    margin-bottom: 5px;
+    margin-right: 440px;
+}
+.Slova{
+    margin-right: 330px;
+    text-align: left ;
+    text-align: justify;
+    margin-left: 130px;
+    font-size: 14px;
+    margin-bottom: 22px;
+}
+.Story_god_1{
+    padding: 26px 24px 26px 24px;
+    margin-left: 140px;
+}
+.Story_slova_1{
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 5px;
+    margin-bottom: 16px;
+    border: 1px solid rgba(40, 40, 40, 1);
+    border-right: none;
+    border-top: none;
+}
+.Story_god_2{
+    margin-top: -17px;
+    margin-bottom: 26px;
+    padding: 26px 24px 26px 24px;
+    border: 1px solid rgba(40, 40, 40, 1);
+    border-left: none;
+    border-right: none;
+    margin-left: 140px;      
+}
+.Story_slova_2{
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: -17px;
+    margin-bottom: 26px;
+    border: 1px solid rgba(40, 40, 40, 1);
+    border-right: none;
+    border-top: none;
+}
+.Story_god_3{
+    margin-top: -27px;
+    margin-bottom: 26px;
+    padding: 26px 24px 26px 24px;
+    margin-left: 140px;
+}
+.Story_slova_3{
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: -26px;
+    margin-bottom: 26px;
+    border: 1px solid rgba(40, 40, 40, 1);
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+}
+.Colli{
+    font-weight: bolder;
+    font-size: 17px;
+}
+.btn_znaniya{
+    padding: 15px 30px 15px 30px;
+    margin-right: 400px;
+    background-color: rgba(153, 134, 42, 1);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.btn_znaniya:hover{
+    background-color: rgba(40, 40, 40, 1);
+    color: white;
+}
+.Rectangle_11{
+    padding-top: 20px;
+    margin-left: -300px;
+    width: 440px;
+    height: 400px;
+}
+.kartinki{
+    display: flex;
+}
+.Rectangle_12{
+    height: 300px;
+    width: 210px;
+    padding-left: 15px;
+    margin-left: -43px;
+}
+.Rectangle_13{
+    height: 300px;
+    width: 210px;
+    padding-left: 15px;
+}
+.liniya_2{
+    margin-left: 130px;
+    margin-bottom: 70px;
+}
+.block_five{
+    background-color: rgba(40, 40, 40, 1);
+    padding-bottom: 80px;
+}
+.Zapis{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.Zapis p{
+    padding-top: 80px;
+    color: white;
+    font-size: 36px;
+}
+.background{
+    background-color: rgba(40, 40, 40, 1);
+    margin-left: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 150px;
+}
+.bochonok{
+    background-color: rgba(40, 40, 40, 1);
+}
+.vinograd{
+    padding-top: 30px;
+    background-color: rgba(40, 40, 40, 1);
+}
+.Zapis_2{
+    justify-content: center;
+    text-align: center;
+    border: 2px solid white;
+    margin: 0px 150px 0px 150px;
+    margin-top: -180px;
+    padding-bottom: 20px;
+}
+.Line_10{
+    padding-top: 80px;
+}
+.Lorem_2{
+        color: white;
+        padding: 70px 260px 70px 260px;
+}
+.Name_Telephone{
+    display: flex;
+    justify-content: center;
+}
+.Name{
+    padding: 10px;
+    margin: 10px;
+}
+.Name_Name{
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color:white;
+    border-color: white;
+}
+.Telephone{
+    padding: 10px;
+    margin: 10px;
+}
+.Telephone_Telephone{
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color:white;
+    border-color: white;
+}
+.Zapis_3{
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.butik{
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color:white;
+    border-color: white;
+    width: 410px;
+}
+.btn_zapis{
+    background-color: rgba(40, 40, 40, 1);
+    color: white;
+    border-color: white;
+    padding: 15px 150px 15px 150px;
+    margin-bottom: 30px;
+}
+.btn_zapis:hover{
+    color: rgba(40, 40, 40, 1);
+    background-color: white;
+}
+.block_six{
+    background-color: rgba(153, 132, 49, 1);
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.nav_2{
+    display: flex;
+    list-style: none;
+    justify-content: center;  
+}
+.nav_2 a{
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 13px 50px 13px 50px;
+    border: 1px solid white;
+    border-right: none;
+    border-left: none;
+}
+.nav_2 a:hover{
+    color: rgba(40, 40, 40, 1);
+}
+.header_nav_3{
+    display: flex;
+    justify-content: center;
+    margin-top: -19px;
+}
+
+.header_nav_3 p{
+    padding: 13px 65px;
+
+}
+.vinishko{
+    border: 1px solid white;
+    margin-left: 37px;
+    border-top: none;
+    border-left:none;
+    border-right: none;
+    color: white;
+    margin-top: 17px;
+
+}
+.nomer_2{
+    border: 1px solid white;
+    border-top: none;
+    color: white;
+    border-right: none;
+    margin-top: 16px;
+}
+.le-corte{
+    border: 1px solid white;
+    border-top: none;
+    border-left:none;
+    border-right: none;
+    color: white;
+    margin-top: 17px;
+}
+.knopk{
+    border: 1px solid white;
+    display: flex;
+    border-top: none;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    padding: 13px 44px;
+}
+.knopk a{
+    border: none;
+}
+.btn_youtube{
+    background-image: url(/Бухло/IMAGES/carbon_logo-youtube.svg);
+    height: 26px;
+    width: 26px;
+    margin-right: 35px;
+}
+.btn_youtube:hover{
+    border: 1px solid white;
+}
+.btn_vk{
+    background-image: url(/Бухло/IMAGES/entypo-social_vk.svg);
+    height: 24px;
+    width: 24px;
+    margin-right: 35px;
+}
+.btn_vk:hover{
+    border: 1px solid white;   
+}
+.btn_feisbuk{
+    background-image: url(/Бухло/IMAGES/bx_bxl-facebook.svg);
+    height: 26px;
+    width: 26px;
+}
+.btn_feisbuk:hover{
+    border: 1px solid white;      
+}
+.block_karta{
+    position: fixed;
+    top:10%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 0px 0px 1000px rgba(0, 0, 0, 0.534);
+    display: none;
+    z-index: 100;
+}
+.vinnaya_karta{
+    height: 630px;
+}
+.btn_zakrit{
+    background-color: rgba(153, 132, 49, 1);
+    padding: 13px 50px 13px 50px;
+    color: white;
+    position: fixed;
+    top:100%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btn_zakrit:hover{
+    color: black;
+}
+.block_postavhiki{
+    position: fixed;
+    top:10%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 0px 0px 1000px rgba(0, 0, 0, 0.534);
+    display: none;
+    z-index: 100;   
+}
+.postavhiki{
+    height: 600px;
+}
+.btn_zakrit_2{
+    background-color: rgba(153, 132, 49, 1);
+    padding: 13px 50px 13px 50px;
+    color: white;
+    position: fixed;
+    top:100%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btn_zakrit_2:hover{
+    color: black;
+}
+.block_scritiy{
+    background-color: rgba(40, 40, 40, 1);
+    padding-bottom: 80px;
+    position: fixed;
+    top:10%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 0px 0px 1000px rgba(0, 0, 0, 0.534);
+    display: none;
+    z-index: 100;
+}
